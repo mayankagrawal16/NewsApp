@@ -7,19 +7,29 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.mayank.news_app.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.mayank.news_app.ui.bbc.HomeFragment"
+        android:label="@string/BBC"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.mayank.news_app.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:name="com.mayank.news_app.ui.DainikBhaskarNews.GalleryFragment"
+        android:label="@string/DainikBhaskar"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.mayank.news_app.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:name="com.mayank.news_app.ui.IndiaToday.SlideshowFragment"
+        android:label="@string/IndiaToday"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/dainik_jagran"
+        android:name="com.mayank.news_app.Fragments.DainikJagranNews"
+        android:label="@string/Jagran"
+        tools:layout="@layout/fragment_dainik_jagran_news" />
+    <fragment
+        android:id="@+id/AajTak"
+        android:name="com.mayank.news_app.Fragments.AajTakNews"
+        android:label="@string/AajTak"
+        tools:layout="@layout/fragment_aaj_tak_news" />
 </navigation>

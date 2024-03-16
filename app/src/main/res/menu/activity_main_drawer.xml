@@ -6,15 +6,40 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/BBC"
+            android:menuCategory="secondary" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/DainikBhaskar"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/IndiaToday"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/dainik_jagran"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/Jagran"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/AajTak"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/AajTak"
+            android:menuCategory="secondary"/>
     </group>
+
+    <item
+        android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/NewYorkTimes"
+                android:title="@string/NewYorkTimes"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:menuCategory="secondary"/>
+        </menu>
+        </item>
 </menu>

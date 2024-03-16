@@ -10,4 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="BBC">BBC News</string>
+    <string name="DainikBhaskar">Dainik Bhaskar News</string>
+    <string name="IndiaToday">India Today News</string>
+    <string name="Jagran">Dainik Jagran News</string>
+    <string name="AajTak">Aaj Tak News</string>
+    <string name="NewYorkTimes">New York Times News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

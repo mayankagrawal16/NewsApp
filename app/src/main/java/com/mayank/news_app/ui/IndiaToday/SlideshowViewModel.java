@@ -1,4 +1,4 @@
-package com.mayank.news_app.ui.slideshow;
+package com.mayank.news_app.ui.IndiaToday;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -10,7 +10,7 @@ public class SlideshowViewModel extends ViewModel {
 
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is India Today fragment");
     }
 
     public LiveData<String> getText() {
