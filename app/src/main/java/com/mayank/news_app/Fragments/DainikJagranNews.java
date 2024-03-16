@@ -68,8 +68,8 @@ public class DainikJagranNews extends Fragment {
         View view= inflater.inflate(R.layout.fragment_dainik_jagran_news, container, false);
 
         webView=view.findViewById(R.id.webViewDainik);
-        webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://www.jagran.com/");
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewController());
         webView.setOnKeyListener(new View.OnKeyListener() {
             @Override

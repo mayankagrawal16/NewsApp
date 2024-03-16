@@ -30,8 +30,8 @@ public class SlideshowFragment extends Fragment {
         View root = binding.getRoot();
 
             webView=root.findViewById(R.id.webViewIndiaToday);
-            webView.getSettings().setJavaScriptEnabled(true);
             webView.setWebViewClient(new WebViewController());
+            webView.getSettings().setJavaScriptEnabled(true);
             webView.loadUrl("https://www.indiatoday.in/");
             webView.setOnKeyListener(new View.OnKeyListener() {
                 @Override

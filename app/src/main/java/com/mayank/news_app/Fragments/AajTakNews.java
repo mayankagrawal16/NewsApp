@@ -67,8 +67,8 @@ public class AajTakNews extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_aaj_tak_news, container, false);
         webView=view.findViewById(R.id.webViewaaj);
-        webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://www.aajtak.in/");
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewController());
         webView.setOnKeyListener(new View.OnKeyListener() {
             @Override

@@ -31,8 +31,8 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         webView=root.findViewById(R.id.webViewbbc);
-        webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://www.bbc.com/news/world");
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewController());
         webView.setOnKeyListener(new View.OnKeyListener() {
             @Override

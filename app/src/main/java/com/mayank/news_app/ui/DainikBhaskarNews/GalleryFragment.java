@@ -30,8 +30,8 @@ public class GalleryFragment extends Fragment {
         View root = binding.getRoot();
 
         webView=root.findViewById(R.id.webViewDainikBhaskar);
-        webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://www.bhaskar.com/");
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewController());
         webView.setOnKeyListener(new View.OnKeyListener() {
             @Override
